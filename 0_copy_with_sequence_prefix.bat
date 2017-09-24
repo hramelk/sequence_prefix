@@ -2,9 +2,9 @@
 
 TITLE Copy with seuqnce prefix by Hramelk95
 ECHO Batch script for copying files with sequence number prefix by Hramelk95
-ECHO Place this file in the folder with you .mp3 files and list.txt and run it
+ECHO Place this file in the folder with your .mp3 files and list.txt and run it
 ECHO The script will create a new folder named sequenced_^<DATE^>_^<TIME^>
-ECHO and copy the files into it with new names
+ECHO and copy the files listed in list.txt into it with new names
 ECHO.
 
 ECHO Press any key to start copying
