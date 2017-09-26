@@ -53,6 +53,7 @@ FOR /f "eol=: delims=" %%a IN ('type list.txt') DO (
     SETLOCAL DisableDelayedExpansion
         ECHO %%a
         SET "_temp=%%a"
+        SET "_temp=%_temp:"=%"
         SETLOCAL EnableDelayedExpansion
             COPY "!_temp!" "%newFolderName%\!_count!__!_temp!"
         ENDLOCAL
